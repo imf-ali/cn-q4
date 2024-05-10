@@ -1,0 +1,9 @@
+<div class="homebtnDiv">
+  <% if(loggedIn) { %>
+    <button class="homebtn"><a aria-current="page" href="/auth/signout">Sign Out</a></button>
+    <button class="homebtn"><a aria-current="page" href="/auth/reset-password">Reset Password</a></button>
+  <% } else { %>
+    <button class="homebtn"><a aria-current="page" href="/auth/signup">Sign Up</a></button>
+    <button class="homebtn"><a aria-current="page" href="/auth/signin">Sign In</a></button>
+  <% } %>
+</div>

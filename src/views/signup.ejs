@@ -1,0 +1,23 @@
+<% if(error) { %>
+  <div class="message">
+    <%= error %>
+  </div>
+<% } %>
+
+<form class="signup" method="post">
+  <h1>Sign Up</h1>
+  <label>Name</label>
+  <input type="text" name="name" placeholder="Enter your name" required>
+  <label>Email</label>
+  <input type="email" name="email" placeholder="Enter your email" required>
+  <label>Password</label>
+  <input type="password" name="password" placeholder="Enter your password" required>
+  <button type="submit">Sign Up</button>
+  <div id="g_id_onload"
+    data-client_id="680750957937-jaf902h6hqs2f4cnmbal8k5ie2mjdvg5.apps.googleusercontent.com"
+    data-context="signin"
+    data-login_uri="http://localhost:3000/auth/signup"
+    data-nonce=""
+    data-itp_support="true">
+  </div>
+</form>

@@ -1,0 +1,97 @@
+:root{
+  font-family: sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 6vh;
+  background-color: #7847C6;
+  align-items: center;
+  padding: 2vh;
+  color: white;
+}
+
+.nav-options{
+  width: 10vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-options a{
+  text-decoration: none;
+  color: white;
+}
+
+.signup{
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.signup input{
+  width: 35vw;
+  height: 4vh;
+  font-size: 1em;
+}
+
+.signup label{
+  font-size: 1em;
+  margin-top: 2vh;
+}
+
+.signup button{
+  width: 10vw;
+  margin-top: 3vh;
+  color: white;
+  background-color: #7847C6;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.message{
+  height: 5vh;
+  width: 90vw;
+  background-color: rgb(235, 142, 142);
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(231, 72, 72);
+  margin: auto;
+  margin-top: 3vh;
+}
+
+.green-box{
+  background-color: rgb(81, 126, 81);
+  border: green;
+}
+
+.homebtnDiv{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.homebtnDiv button{
+  width: 10vw;
+  margin-top: 3vh;
+  color: white;
+  background-color: #7847C6;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.homebtnDiv a{
+  text-decoration: none;
+  color: white;
+}
